@@ -1,8 +1,6 @@
-# This function converts any number into hours and minutes
-
 def time_converter(time):
-    hours = time // 60  # converts time to hours
-    mins = time % 60    # converts time to minutes
+    hours = time // 60
+    mins = time % 60
 
     if (hours == 1) and (mins == 1):
         print(f"{time} will become {hours} hour and {mins} minute.")
@@ -13,5 +11,4 @@ def time_converter(time):
     else:
         print(f"{time} will become {hours} hours and {mins} minutes.")
 
-number = int(input("Enter a number of your choice: "))
-time_converter(number)
+time_converter(66)

@@ -1,5 +1,3 @@
-# This function returns the maximum value
-
 def maximum(num_1, num_2, num_3):
     
     if num_1 > num_2:
