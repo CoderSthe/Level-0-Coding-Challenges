@@ -6,4 +6,4 @@ def same_letters(first_string, second_string):
     print("Common characters: ", ', '.join(common_letters))
 
 
-same_letters("Tomatoes", "Potatoes")
+same_letters("TomatoeS", "PotaToeS")
