@@ -3,7 +3,7 @@ def same_letters(first_string, second_string):
     for a in set(first_string):
         if a in second_string:
             common_letters += a
-    print("Common characters: ", ', '.join(common_letters))
+    print("Common characters: ", ', '.join(common_letters).lower())
 
 
 same_letters("TomatoeS", "PotaToeS")
